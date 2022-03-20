@@ -390,22 +390,22 @@ body {
 
 			}
 			#tribute{
-				background-image: url(/Img/Tributo\ 1.png);
+				background-image: url(Img/Tributo\ 1.png);
 				cursor: pointer;
 
 			}
 			#landing{
-				background-image: url(/Img/Landing.png);
+				background-image: url(Img/Landing.png);
 				width: 60%;
 				cursor: pointer;
 
 			}
 			#bitcoin{
-				background-image: url(/Img/Bitcoin.png);
+				background-image: url(Img/Bitcoin.png);
 				cursor: pointer;
 			}
 			#sie{
-				background-image: url(/Img/www.sieducacion.com.co.png);
+				background-image: url(Img/www.sieducacion.com.co.png);
 				width: 60%;
 				cursor: pointer;
 			}
