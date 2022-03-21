@@ -776,6 +776,7 @@ body {
 
 			#header nav a[href="#menu"] {
 				padding-right: 3.75em !important;
+				padding-top: 3em !important;
 			}
 
 				#header nav a[href="#menu"]:last-child {
@@ -817,6 +818,7 @@ body {
 
 					#header nav a[href="#menu"] {
 						padding-right: 3.25em !important;
+						padding-top: 1.75em !important;
 					}
 
 						#header nav a[href="#menu"]:before, #header nav a[href="#menu"]:after {
