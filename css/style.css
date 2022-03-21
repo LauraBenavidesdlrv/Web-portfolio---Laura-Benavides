@@ -685,7 +685,7 @@ body {
 			display: inline-block;
 			font-size: 0.8em;
 			padding:  1.5em;
-			margin-top: -22px;
+			width: 100%;
 			
 		}
 		#header nav {
@@ -856,7 +856,7 @@ body {
 					right: 0;
 				}
 		}
-/* logo */
+
 	#banner {
 		-moz-align-items: center;
 		-webkit-align-items: center;
