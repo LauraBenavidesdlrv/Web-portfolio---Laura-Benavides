@@ -834,9 +834,6 @@ body {
 
 		@media screen and (max-width: 480px) {
 
-			#header .logo span {
-				display: none;
-			}
 
 			#header nav a[href="#menu"] {
 				overflow: hidden;
