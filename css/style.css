@@ -753,7 +753,7 @@ body {
 					}
 
 						#header nav a[href="#menu"]:last-child:before, #header nav a[href="#menu"]:last-child:after {
-							right: 2em;
+							right: 1em;
 						}
 		#header.alt {
 			-moz-transition: opacity 2.5s ease;
@@ -830,7 +830,7 @@ body {
 						}
 
 							#header nav a[href="#menu"]:last-child:before, #header nav a[href="#menu"]:last-child:after {
-								right: 1.5em;
+								right: 1em;
 							}
 
 		}
