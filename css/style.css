@@ -818,7 +818,7 @@ body {
 
 					#header nav a[href="#menu"] {
 						padding-right: 3.25em !important;
-						padding-top: 1.75em !important;
+						padding-top: 1.5em !important;
 					}
 
 						#header nav a[href="#menu"]:before, #header nav a[href="#menu"]:after {
@@ -844,6 +844,7 @@ body {
 				text-indent: 5em;
 				white-space: nowrap;
 				width: 5em;
+				left:1em;
 			}
 
 				#header nav a[href="#menu"]:before, #header nav a[href="#menu"]:after {
