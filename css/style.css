@@ -233,11 +233,12 @@ body {
 		list-style: none;
 		margin-left: -1em;
 		padding-left: 0;
+		
 	}
 
 		ul.actions li {
 			padding: 0 0 0 1em;
-			vertical-align: middle;
+			width: 100%;
 		}
 
 
