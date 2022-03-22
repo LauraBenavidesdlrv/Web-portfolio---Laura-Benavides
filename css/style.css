@@ -388,6 +388,7 @@ body {
 			.backgrounds{
 				background-repeat: no-repeat;
 				background-size: cover;
+				animation: background-mov 20s infinite alternate;
 
 			}
 			#tribute{
