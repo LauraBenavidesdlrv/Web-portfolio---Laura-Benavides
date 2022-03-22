@@ -1099,9 +1099,22 @@ body {
 		#skills:hover a{
 			animation: rebote 2s 1;
 		}
+		@media (max-width:1280px){
+			#skills a{
+				width: 60%;	
+			}		
+		}
+		@media (max-width:772px){
+			#skills a{
+				width: 80%;	
+			}		
+		}
+		@media (max-width:480px){
+			#skills a{
+				width: 80%;	
+			}		
+		}
 
-
-			
 		.work{
 			flex-direction: row;			
 			padding: 40px;
