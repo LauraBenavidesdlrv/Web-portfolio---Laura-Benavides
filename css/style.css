@@ -1108,8 +1108,13 @@ body {
 			padding-right: 60px;
 			text-align: end;
 			margin: 0;
-			background-color: #020513;
-			
+			background-color: #020513;	
+		}
+
+		@media (max-width:720px){
+			.work{
+				text-align: center;
+			}		
 		}
 
 
