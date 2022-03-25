@@ -400,7 +400,7 @@ body {
 			#tribute{
 				background-image: url(Img/Tributo.png);
 				cursor: pointer;
-				width: 60%;
+				
 
 			}
 			#landing{
@@ -412,7 +412,7 @@ body {
 			#bitcoin{
 				background-image: url(Img/Landing.png);
 				cursor: pointer;
-				width: 60%;
+				
 			}
 			#sie{
 				background-image: url(Img/www.sieducacion.com.co.png);
@@ -421,7 +421,7 @@ body {
 			}
 			#weather{
 				cursor: pointer;
-				width: 60%;
+				
 			}
 			#clon{
 				width: 60%;
