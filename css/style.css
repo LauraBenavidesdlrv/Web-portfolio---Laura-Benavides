@@ -396,6 +396,7 @@ body {
 				cursor: pointer;
 				animation: background-mov 20s infinite alternate;
 				width: 60%;
+			}
 			#tribute{
 				background-image: url(Img/Tributo.png);
 				cursor: pointer;
