@@ -430,7 +430,7 @@ body {
 				opacity: 0;							
 			}
 			.tiles article:nth-child(4n - 1), .tiles article:nth-child(4n - 2) {
-				width: 60%;	
+				width: 40%;	
 			}
 			.tiles article:nth-child(6n - 11):before {
 				background-color: #8d82c4;
