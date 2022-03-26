@@ -1420,28 +1420,13 @@ body {
 
 	#footer .copyright {
 		font-size: 0.8em;
-		list-style: none;
-		padding-left: 0;
+		padding:20px;
 		text-align: center;
 	}
-	#footer .copyright p{
-		padding-top: 40px;
-		margin-bottom: -20px;
-	}
-
-		#footer .copyright li {
-			color: rgba(244, 244, 255, 0.2);
-			display: inline-block;
-			margin-top: -50px;
-			
-
-		}
-
-
 
 	@media screen and (max-width: 480px) {
 
-		#footer .copyright li {
+		#footer .copyright  {
 			display: block;
 			border-left: 0;
 			margin-left: 0;
