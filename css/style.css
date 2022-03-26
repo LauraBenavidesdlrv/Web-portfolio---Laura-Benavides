@@ -400,6 +400,7 @@ body {
 			#tribute{
 				background-image: url(Img/Tributo.png);
 				cursor: pointer;
+				width: 60%;
 				
 
 			}
@@ -412,6 +413,7 @@ body {
 			#bitcoin{
 				background-image: url(Img/Landing.png);
 				cursor: pointer;
+				width: 60%;
 				
 			}
 			#sie{
@@ -421,12 +423,14 @@ body {
 			}
 			#weather{
 				cursor: pointer;
+				width: 60%;
 				
 			}
 			#clon{
 				width: 60%;
 				cursor: pointer;
 			}
+
 			.tiles article:hover:before {
 				opacity: 0;							
 			}
