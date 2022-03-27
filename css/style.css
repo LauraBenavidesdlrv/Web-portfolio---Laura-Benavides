@@ -991,6 +991,7 @@ body {
 				flex-flow: row nowrap;
 				align-items: center;
 				padding: 100px;	
+				overflow: hidden;	
 			}
 			#banner-credits:hover h1{
 				animation: rebote 2s 1;
