@@ -977,7 +977,7 @@ body {
 				top: 0;
 				z-index: 1000;
 				background-color: #060918;
-				margin-top: -44px;
+				margin-top:-44px;
 			}
 				#header-credits a{
 					position: relative;
@@ -1048,6 +1048,9 @@ body {
 			
 		}
 		@media (max-width:680px){
+			#content-credits{
+				margin-left: -20px;
+			}
 			#banner-credits p{
 				margin: 20px;
 				margin-left: 20px;
@@ -1059,6 +1062,9 @@ body {
 			}
 		}
 		@media (max-width:516px){
+			#content-credits{
+				margin-left: -30px;
+			}
 			#banner-credits p{
 				margin: 20px;
 				margin-left: 20px;
@@ -1070,6 +1076,9 @@ body {
 			}
 		}
 		@media (max-width:460px){
+			#content-credits{
+				margin-left: -40px;
+			}
 			#banner-credits p{
 				margin: 20px;
 				margin-left: 10px;	
