@@ -959,7 +959,9 @@ body {
 			100%{
 				transform: translateY(0px);
 			}
-			/*	Credits*/
+		}
+
+		/*Credits*/
 			#header-credits{
 				display: -moz-flex;
 				display: -webkit-flex;
@@ -1024,8 +1026,58 @@ body {
 				}
 				#content-credits:hover h3{
 					animation: deslizar 1s 1;
-				}	
+				}
+		
+
+		/*Responsive-Credits*/
+
+		@media (max-width:736px){
+			#header-credits{
+				margin-top: -50px;
+			}
+			#banner-credits p{
+				margin: 20px;
+				margin-left: 100px;
+				font-size:30em;
+				margin-top: -50px;
+			}
+			#banner-credits h1{
+				margin: 20px;
+			}
 			
+		}
+		@media (max-width:680px){
+			#banner-credits p{
+				margin: 20px;
+				margin-left: 20px;
+				font-size:25em;
+				margin-top: -40px;
+			}
+			#banner-credits h1{
+				margin: 10px;
+			}
+		}
+		@media (max-width:516px){
+			#banner-credits p{
+				margin: 20px;
+				margin-left: 20px;
+				font-size:20em;
+				margin-top: -50px;
+			}
+			#banner-credits h1{
+				margin: 0px;
+			}
+		}
+		@media (max-width:460px){
+			#banner-credits p{
+				margin: 20px;
+				margin-left: 10px;	
+				font-size:20em;
+				margin-top: -50px;
+			}
+			#banner-credits h1{
+				margin-left: -20px;
+			}
 		}
 		#about{
 			display: flex;
