@@ -977,6 +977,7 @@ body {
 				top: 0;
 				z-index: 1000;
 				background-color: #060918;
+				margin-top: -44px;
 			}
 				#header-credits a{
 					position: relative;
