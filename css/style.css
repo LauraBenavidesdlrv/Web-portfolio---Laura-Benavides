@@ -890,6 +890,7 @@ body {
 		position: relative;
 		top: -3.25em;
 		text-align: center;
+		overflow: hidden;
 	}
 
 		#banner:after {
