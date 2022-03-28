@@ -691,6 +691,7 @@ body {
 		top: 0;
 		width: 100%;
 		z-index: 10000;
+		overflow: hidden;
 
 	}
 		#header .logo {
