@@ -980,10 +980,13 @@ body {
 				z-index: 1000;
 				background-color: #060918;
 				margin-top:-100px;
+				justify-content: space-between;
 			}
-				#header-credits a{
-					position: relative;
-					left: 20px;
+				#header-credits a {			
+					margin-left: 20px;
+				}
+				#header-credits a i{
+					margin-right:30px;
 				}
 			
 			#banner-credits{
