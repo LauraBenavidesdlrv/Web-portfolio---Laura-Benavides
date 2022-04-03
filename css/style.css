@@ -621,7 +621,6 @@ html {
 			height: 300px;
 			align-items: center;
 			justify-content: space-evenly;
-			background-color: #8d82c4;
 		}
 			.desc-landing:hover h2{
 				animation: rebote 2s 1;
