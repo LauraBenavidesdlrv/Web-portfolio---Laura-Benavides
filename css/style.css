@@ -394,10 +394,10 @@ body {
 			.backgrounds{
 				background-repeat: no-repeat;
 				background-size: cover;
-				animation: background-mov 8s infinite alternate;
 			}
 			#portfolio{
 				background-image: url(/Img/laurabenavidesdlrv.github.io_Web-portfolio-Laura-Benavides_\ \(1\).png);
+				background-position: top;
 				cursor: pointer;
 				width: 60%;
 			}
