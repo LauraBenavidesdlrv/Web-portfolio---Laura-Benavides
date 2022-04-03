@@ -617,20 +617,23 @@ html {
 				}
 		.desc-landing{
 			display: flex;
-			flex-flow: row nowrap;
+			flex-flow: row ;
 			height: 300px;
 			align-items: center;
+			justify-content: space-evenly;
+			background-color: #8d82c4;
 		}
-			.desc-landing:hover header{
+			.desc-landing:hover h2{
 				animation: rebote 2s 1;
 
 			}
 			.desc-landing:hover p{
 				animation: deslizar 2s 1;
+
 			}
 			.desc-landing p{
 				width: 40%;
-				margin-left: 50px;
+
 			}
 			.desc-landing header{
 				margin-right: 250px;
