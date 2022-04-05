@@ -303,6 +303,7 @@ html {
 			}
 			#weather{
 				background-image: url(Img/localhost1.png);
+				background-position: top;
 				width: 60%;
 			}
 			#clon{
