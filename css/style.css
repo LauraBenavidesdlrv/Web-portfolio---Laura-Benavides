@@ -734,6 +734,13 @@ html {
 				max-width: 100%;
 			}
 			/*Responsive-landings*/
+			@media screen and (min-width:700px){
+				.det-landing  {
+					display: flex;
+					height: fit-content;
+					justify-content: space-evenly;
+				}
+			}
 			@media screen and (max-width:700px){
 				#banner-landing{
 					height: 200px;
