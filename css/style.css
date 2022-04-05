@@ -658,7 +658,7 @@ html {
 			.det-landing .inner{
 				display: flex;
 				flex-direction: column;
-				justify-content: center;
+				justify-content: space-around;
 				align-items: center;
 			}
 			.det-landing .inner h2{
