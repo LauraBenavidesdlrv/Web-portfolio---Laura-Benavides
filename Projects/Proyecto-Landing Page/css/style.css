@@ -47,7 +47,8 @@ header{
     height: 550px;
     display: flex;  
     animation: background 10s infinite alternate; 
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-right: 60px;
 }
 @keyframes background{
     0%{
@@ -98,7 +99,6 @@ form{
     border-radius: 7px;    
     box-shadow: 0 0 10px rgb(107, 100, 100);
     width: 27%;
-    margin-right: 60px;
 }
 .label-form{
     display: block;
@@ -134,19 +134,18 @@ button{
     header{
         display: flex;
         flex-direction: column;
-        height: 1100px; 
+        height: fit-content; 
+        justify-content: center;
+        align-items: center;
     }
     .texto-principal{
-        display: block;
-        margin: auto;
-        max-width: 50%;
-        margin-top: 130px;
+        margin-right: 40px;
+        height: fit-content;
  
     }
     form{
-        display: block;
-        margin: auto;
-        margin-top: -60px;
+        width: 60%;
+        margin: 0% 0% 40% 35%;
     }   
 }
 .beneficios{
