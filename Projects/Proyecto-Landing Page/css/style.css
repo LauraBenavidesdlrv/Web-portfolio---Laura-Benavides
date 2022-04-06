@@ -16,7 +16,7 @@ body{
         align-items: center;
     }  
     .box{
-        width: 70%;
+        width: 80%;
     }
 }
 @media (max-width:480px) {
