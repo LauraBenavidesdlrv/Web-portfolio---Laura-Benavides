@@ -18,9 +18,9 @@ body{
     .box{
         width: 80%;
     }
-        .pprincipal{
+     .pprincipal{
         margin-bottom: 50%;
-        background-color: aqua;
+
     }
     .beneficio{
         display: flex;
