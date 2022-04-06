@@ -144,12 +144,12 @@ button{
     }
     .texto-principal{
         height: fit-content;
-        padding-left: 30px;
+        padding-left: 40px;
  
     }
     form{
         width: 60%;
-        margin: -25% 0% 10% 25%;
+        margin: -25% 0% 10% 20%;
     }   
 }
 .beneficios{
