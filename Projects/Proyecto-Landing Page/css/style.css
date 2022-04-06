@@ -139,13 +139,12 @@ button{
         align-items: center;
     }
     .texto-principal{
-        margin-right: 40px;
         height: fit-content;
  
     }
     form{
         width: 60%;
-        margin: 0% 0% 40% 35%;
+        margin: 0% 0% 40% 5%;
     }   
 }
 .beneficios{
