@@ -1,0 +1,268 @@
+*{ 
+    box-sizing: border-box;/*para que las cajas no se desborden unas con otras*/
+    background-color: #082032;   
+    font-family: 'Source Sans 3', sans-serif;
+    margin: 0px;
+}
+@media (max-width: 300px) {
+    body{
+        width: 300px;
+    }
+}
+.menu, #app, .section, footer{
+    margin-left:28px ;
+    margin-right: 28px;
+    
+}
+h2{
+    background: none;
+    color: white;
+    font-size: 165%;
+    padding: 1px;
+}
+h3{
+    background: none;
+    padding: 1px;
+}
+.papi{
+    display: flex;
+    flex-flow: column;    
+}
+    .header{
+        background-color: #082032;   
+        display: flex;
+        flex-flow: column;
+        flex: 0 2 auto;       
+    }
+        .menu{
+            background-color: #082032;   
+            display: flex;
+            flex-flow: row;
+            justify-content: space-between;
+            margin: 10px;
+            padding: 20px;
+            margin-bottom: 30px;
+            margin-top: 20px;
+            flex: 0 2 auto;            
+        }
+            .logo{
+                color: white;
+                text-align: center;
+                font-size: 40px;
+                display: flex;   
+                width: max-content; 
+                margin-top: -10px;
+            }
+            @media(max-width:800px){
+                .logo{
+                    visibility: hidden;
+                }
+                .logo:after{
+                    content: "B";
+                    visibility: visible;
+                    display: flex;
+                    position: absolute; 
+                }
+            }
+                .bi.bi-list {
+                    display: flex;
+                    flex: 0 2 auto;            
+                    color: white;
+                    font-size: 30px;
+                    width: max-content;
+                    position: relative;
+                    right:  60px;
+                }
+
+                .bi.bi-search {
+                    display: flex;
+                    color: white;
+                    width: max-content;
+                    font-size: 30px;
+                    position: relative;
+                    right:  10px;
+                } 
+                .menu a{
+                    text-decoration: none;                    
+                }               
+        .texto-principal{
+            animation:main 10s infinite;
+            animation-delay: 0.01ms;
+            color: white;  
+            height: 500px;
+            background-image:url(https://cdn.pixabay.com/photo/2019/10/30/19/53/cryptocurrency-4590430_960_720.jpg) ;
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: relative;
+            top: -20px; 
+            width: 100%;
+        }
+        @media (max-width:470px) {
+            .texto-principal{
+                height: 800px;
+            }
+        }
+        @keyframes main {
+            0%{
+                background-position: bottom left;
+            }
+            100%{
+                background-position:top right;
+            }
+        }
+            h1{
+                background: none;
+                font-size: 400%;
+                font-family: 'Roboto', sans-serif;
+                text-align: center;
+                position: relative;
+                top: 80px;
+            }
+            .texto-principal p{
+                background-color: #ffffff00;
+                text-align: center;
+                position: relative;
+                top: 40px;
+                padding: 40px;              
+            }
+    #app{
+        background-color:#ffffff00;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 200px;
+        position: relative;
+        margin-top: 30px;        
+    }    
+        .centrado{
+            display: flex;
+            flex: 0 1 100%;
+            text-align: center;
+            color: white;
+            justify-content: center;
+        }   
+        .precio{
+            background-color:#f0593e36;
+            color:white;
+            text-align: center;
+            flex:0 1 40%;  
+            border: rgb(218, 70, 37) 1px solid;
+            border-radius: 5px;
+            padding: 13px;
+            margin: 20px;
+            box-shadow: 0 0 5px rgb(216, 48, 30);
+
+        }
+        .tiempo{
+            background-color:#f0593e36;
+            color:white;
+            text-align: center;
+            flex:0 1 40%;
+            padding: 13px;
+            margin: 20px;
+            border: rgb(218, 70, 37) 1px solid;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgb(216, 48, 30);
+        }
+        .section{
+            display: flex;           
+        }
+        .articulos{
+            flex: 0 2 70%;
+            display: flex;
+            flex-flow: row wrap ;
+            height: 700px;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;        
+        }
+            .article{
+                background-color: #FF4C29;
+                flex: 1 1 40%;
+                flex-wrap:nowrap;
+                height: 250px;
+                margin: 15px;
+            }
+                .lupa {
+                    background-image: url(https://cdn.pixabay.com/photo/2021/08/08/15/06/stock-market-6531146__340.jpg);
+                    background-size: cover;
+                    background-repeat: no-repeat;                
+                }
+                .article img{
+                    width:40%;
+                }
+                .article p{
+                    background-color: #ff4d2935;
+                    font-weight: bolder;
+                    text-align: justify;
+                    padding: 5px;
+                    margin: 0%;
+                    position: relative;
+                    top:150px;
+                    color: white;
+                    font-family: 'Roboto', sans-serif;
+                }
+            .navegacion{
+                flex: 1 1 100%;
+                height:40px ;
+                text-align: center;   
+            }
+                .navegacion a{
+                    color: white;
+                    text-decoration: none;
+                    background-color: #082032;
+                }
+        .aside{
+            background-color: #2680c4;
+            flex: 0 1 25%;
+            margin-top: 25px;           
+            margin-top: 45px;    
+        }
+            .publicidad{
+                 background-image: url(/Img/bitcoin-2007769_1920.jpg);
+                 background-size: cover;
+                 background-repeat: no-repeat;
+                 background-position: center;
+                 height: 626px;
+                 background-size: cover;
+                 position: relative;
+                 width: 100%;
+            }
+            @media (max-width:800px) {
+                .aside{
+                    width: 80%;
+                    display: block;
+                    margin: auto;
+                }
+                .publicidad{   
+                    height: 200px;
+                }              
+            }
+    .footer{
+        display: flex;
+        justify-content: center;             
+        background-color: #082032;
+        color: white;
+        position: relative;
+        right: 20px;                
+        font-size: 30px;        
+    }
+        .iconos{
+            display: flex;
+            flex-direction: row;
+        }
+        .footer a{
+            padding: 15px;
+            text-decoration: none;
+            color: white;
+        }
+@media all and (max-width:800px){
+    .section{
+        flex-direction: column; 
+    } 
+}
+@media all and (max-width:600px){
+    .aticulos{
+        flex-direction: column; 
+    } 
+}

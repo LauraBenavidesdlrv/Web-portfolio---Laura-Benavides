@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Lobster&family=Open+Sans:wght@600&family=Source+Sans+3:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Lobster&family=Open+Sans:wght@600&family=Source+Sans+3:wght@300&family=Special+Elite&display=swap');
+@media (max-width:1800px) {
+    body{
+        max-width: 100%;
+    }
+}
+
+
+
+*{ 
+    /*Estilos generales*/
+    font-family: 'Source Sans 3', sans-serif; 
+    margin: 0px;
+}
+#logo{
+    color: white;
+    display: block;
+    margin-left:40px ;
+    margin-top: 20px;
+    font-size: larger;
+}
+#menu{
+    display: flex;
+    margin-right:40px ;
+    
+}
+.menu{
+    background-color: rgb(66, 63, 63);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+header a{
+    color: white;
+    padding: 20px;
+    font-size: 1.2em;
+    font-weight: 700;
+
+
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+    #title{
+        font-size: 45px;
+        text-align: center;
+        font-family: 'Source Sans 3', sans-serif;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;    
+    }
+    .frases{
+        text-align: center;
+        margin-top: -30px;
+        margin-bottom: 20px;
+        padding: 10px;
+    }
+    .cita{
+        text-align: right;
+        font-weight: 600px;
+        font-style: normal;
+        position: relative;
+        right: 220px;
+    }
+    .principal{
+        background-image: linear-gradient(
+            160deg,
+            rgba(9, 9, 9, 0.487),
+            rgba(230, 224, 224, 0.583)
+        ),
+        url(https://ichi.pro/assets/images/max/724/1*gC2lvqBybKBUI19f138ucw.jpeg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 510px; 
+        animation: imagenes 10s infinite;
+        max-width: 100%;     
+    }  
+    @keyframes imagenes{
+        0%{
+            background-position: bottom left;
+        }
+        100%{
+            background-position: top right ;          
+        }
+    }
+    @media (max-width:600px) {
+        .principal{
+            height: 800px;
+        }   
+    }
+    .texto-principal{
+        max-width: 600px;
+        color: rgb(243, 235, 233);
+        font-size: 2.8em;
+        font-weight: 600;
+        text-align: center;
+        font-family: 'Special Elite', sans-serif;
+        margin: 0px 150px;
+        padding: 15px;
+        padding-top:20px ;
+        border-radius: 4px;
+    }
+    #maquina{
+        display: inline;
+        border-right: 4px solid tomato;
+        height: 1.0em;
+    }
+
+        .articulos{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 30px;
+            padding-top: 30px;
+        }
+        .articulo:hover{
+            animation-name: background;
+            animation-duration: 0.5ms;
+            animation-fill-mode: forwards;
+        }
+        @keyframes background{
+            100%{
+               background: tomato;
+            }
+        }
+        .articulo {
+            display: flex;
+            flex-flow: row;
+            flex: 0 0 40%;  
+            height: 300px; 
+            margin: 10px; 
+            max-width: 450px;
+            margin: 25px;  
+            justify-content: center;
+            align-items: center;
+            border-radius: 3px;
+            border: 1px solid rgb(118, 105, 105);
+            box-shadow: 0 0 7px black;
+            cursor: pointer;
+        }
+            .personal{
+                background-image: linear-gradient(
+                    165deg,
+                    rgba(31, 29, 29, 0.898),
+                    rgba(209, 189, 189, 0.515)
+                ),
+                url(https://sothebys-com.brightspotcdn.com/dims4/default/6ca27f2/2147483647/strip/true/crop/512x512+128+0/resize/1200x1200!/quality/90/?url=http%3A%2F%2Fsothebys-brightspot.s3.amazonaws.com%2Fdotcom%2F36%2F79%2Fecb252814285b04834595e678280%2Ffeynman-arline1.jpg);
+                background-size: cover; 
+            }
+            .cientifica{
+                background-image:linear-gradient(
+                    165deg,
+                    rgba(31, 29, 29, 0.898),
+                    rgba(209, 189, 189, 0.446)
+                ),
+                url(http://principia.io/media/uploads/images/feynman/feynman-kiosco-principia.jpg);
+                background-size: cover;
+            }
+            .datos{
+                background-image: linear-gradient(
+                    165deg,
+                    rgba(31, 29, 29, 0.467),
+                    rgba(209, 189, 189, 0.467)
+                ),
+                url(http://2.bp.blogspot.com/-yui-JDe01bg/UzxQiWXLq1I/AAAAAAAAAks/G6vF9NmvYlw/s1600/feynman%5B1%5D.jpg);
+                background-size: cover;
+            }
+            .otros{
+                background-image:linear-gradient(
+                    165deg,
+                    rgba(31, 29, 29, 0.898),
+                    rgba(209, 189, 189, 0.713)
+                ),
+                url(https://calisphere.org/crop/999x999/b7d3208788f01fa8d996c62b84fc88fd);
+                background-size: cover;
+            }
+            .articulo p{
+                color: white;
+                font-size: xx-large;
+                font-weight: bolder;
+                text-align:end; 
+            }
+            a{
+                text-decoration: none;
+            }
+
+         .caja1{
+            background-color: rgb(44, 43, 43);
+            color: whitesmoke;
+            border-radius: 10px;
+            text-align: justify;
+            padding: 50px;
+            margin-bottom: 50px;
+            box-shadow: 0 0 15px rgb(87, 83, 83);
+            margin-left:50px;
+            max-width: 60%;
+        }
+        .caja2{
+            background-color: rgb(44, 43, 43);
+            color: whitesmoke;
+            margin:auto;
+            border-radius: 10px;
+            text-align: justify;
+            padding: 50px;
+            margin-bottom: 50px;
+            margin-right: 50px;
+            box-shadow: 0 0 15px rgb(87, 83, 83);
+            max-width: 60%;
+        }
+        .caja3{
+            background-color: rgb(44, 43, 43);
+            color: whitesmoke;
+            margin-left:50px;
+            border-radius: 10px;
+            text-align: justify;
+            padding: 50px;
+            margin-bottom: 50px;
+            box-shadow: 0 0 15px rgb(87, 83, 83);
+            max-width: 60%;
+        }
+        .caja4{
+            background-color: rgb(44, 43, 43);
+            color: whitesmoke;
+            margin:auto;
+            border-radius: 10px;
+            text-align: justify;
+            padding: 50px;
+            margin-bottom: 50px;
+            margin-right: 50px;
+            box-shadow: 0 0 15px rgb(87, 83, 83);
+            max-width: 60%;
+            
+        }
+        .caja1 img{
+            display: block;
+            margin: auto;
+            height: 250px;
+        }
+        .caja3 img{
+            display: block;
+            margin: auto;
+            height: 300px;
+        }
+        .caja4 img{
+            display: block;
+            margin: auto;
+        }
+        .caja2 img{
+            display: block;
+            margin: auto;
+        }
+        .prensa{
+            display: block;
+            margin: auto;
+            width: 80%;
+        }
