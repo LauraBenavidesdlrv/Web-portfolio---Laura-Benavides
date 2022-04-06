@@ -18,6 +18,15 @@ body{
     .box{
         width: 80%;
     }
+        .pprincipal{
+        margin-bottom: 50%;
+        background-color: aqua;
+    }
+    .beneficio{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 @media (max-width:480px) {
     .texto-principal p,h1{
@@ -48,11 +57,7 @@ header{
         background-position: top left;
     }
 }
-@media (max-width:700px) {
-    header{
-        height: 600px;
-    }  
-}
+
 .logo{
     width: 70px;
     margin: 15px;
@@ -61,26 +66,27 @@ header{
     color: white;
     display: flex;
     flex-direction: column;
-    max-width: 33%;
     font-family: 'Source Sans 3', sans-serif;
     font-weight: bolder;
     margin-top: 200px;
     margin-left: 80px;
 }
-h1{
+.tprincipal{
     font-size: 40px;
     background-color: rgba(97, 93, 91, 0.323);
     border: 1px solid rgba(131, 116, 107, 0.323);
     border-radius: 5px;
     padding: 15px;
     text-align: center;
+    max-width: 100%;
+
 }
-p{
+.pprincipal{
     font-size: 20px;
     border-radius: 5px;
     color: #E72B03 ;
     padding-left: 25px;
-    width: 70%;
+    max-width: 100%;
 }
 form{
     background-color: rgba(255, 254, 255, 0.597);
@@ -158,8 +164,7 @@ button{
 }
 .texto-beneficios{
     color: black;
-    text-align: center;
-    margin-left: 65px; 
+    text-align: center; 
 }
 .beneficio{
     border: 1px solid rgb(186, 178, 166);
@@ -170,13 +175,11 @@ button{
     text-align: center;
 }
 .carrusel{
-    width:50%;
+    width:80%;
  
     overflow: hidden;
     display: block;
     margin: auto;
-
-
 
 }
 .carrusel .caja{
@@ -187,18 +190,15 @@ button{
     align-items:center ;
     transition: all 0.4s ease;
     transform: translateX(-50%);
-
-    
-
-
 }
 .carrusel .beneficio{
     width: calc(100%/3);
     margin: 50px;
-    width: 50%;
     padding-bottom: 30px;
-
-
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
 }
 .carrusel .puntos{
     margin-top: -60px;
@@ -209,9 +209,6 @@ button{
     align-items: center;
     position: relative;
     margin-left: 30px;
-
-
-
 }
 .carrusel .punto{
     width: 1em;
