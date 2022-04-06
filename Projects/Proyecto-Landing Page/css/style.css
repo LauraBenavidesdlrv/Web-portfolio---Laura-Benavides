@@ -144,6 +144,7 @@ button{
     }
     .texto-principal{
         height: fit-content;
+        padding-left: 30px;
  
     }
     form{
