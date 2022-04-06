@@ -133,11 +133,9 @@ header a{
         }
         .articulo {
             display: flex;
-            flex-flow: row;
-            flex: 0 0 40%;  
-            height: 300px; 
-            margin: 10px; 
-            max-width: 450px;
+            flex-flow: row nowrap;
+            width:40%;  
+            height: 300px;  
             margin: 25px;  
             justify-content: center;
             align-items: center;
@@ -146,6 +144,11 @@ header a{
             box-shadow: 0 0 7px black;
             cursor: pointer;
         }
+                @media (max-width:517px) {
+                    .articulo{
+                    width: 80%;
+                }
+            }
             .personal{
                 background-image: linear-gradient(
                     165deg,
