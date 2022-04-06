@@ -22,6 +22,10 @@ body{
         margin-bottom: 50%;
 
     }
+     .tprincipal{
+
+        height: fit-content;
+    }
     .beneficio{
         display: flex;
         justify-content: center;
