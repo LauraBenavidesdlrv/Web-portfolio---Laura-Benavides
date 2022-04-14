@@ -1189,6 +1189,11 @@ html {
 			padding: 20px;
 			width: 250px;	
 		}
+		@media (min-width:1600px) {
+			#contact section{
+				width: 400px;	
+			}
+		}
 
 /* Footer */
 	#footer .copyright {
