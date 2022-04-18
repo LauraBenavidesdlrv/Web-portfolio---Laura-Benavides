@@ -19,27 +19,23 @@
                 <h1 class="tprincipal">Toma el control de tu vida con AgileNotes</h1><br>
                 <p class="pprincipal">Planifica tus proyectos y actividades de manera flexible.</p>  
             </div>
-            <form action="">
-                <div class="to-fill">
-                    <input type="text" name="name" id="name" class="input-form">
+            <form action="#"class="to-fill" onsubmit="">             
                         <label for="nombre" class="label-form">Nombre*</label>
-
-                        <input type="email" class="input-form" name="email" id="email">
+                        <input type="text"  name="name" id="name" class="input-form"required >
+                        
                         <label for="correo" class="label-form">Email*</label> 
-
-                        <input type="text" name="user" id="user" class="input-form">
+                        <input type="email"  class="input-form" name="email" id="email"required>
+                        
                         <label for="usuario" class="label-form">Usuario*</label>
-
-                        <input type="password" name="password" id="password" class="input-form">
+                        <input type="text"  name="user" id="user" class="input-form"required>
+                        
                         <label for="contraseña" class="label-form">Contrseña*</label>
-                    </div>
-                <div>
-                    <input type="checkbox" name="condition" value="yes" >
-                    <label for="">Acepta los terminos y condiciones</label>
-                </div>
-                <div>
-                    <button style="cursor: pointer;">Registrate</button>
-                </div>
+                        <input type="password"  name="password" id="password" class="input-form"required>
+
+                         <input type="checkbox"  name="condition"  required id="condicion">
+                        <label for="">Acepto los terminos y condiciones</label>
+
+                        <button  type="submit" id="registro">Registrate</button>    
             </form>
         </header>
         <div class="beneficios">
