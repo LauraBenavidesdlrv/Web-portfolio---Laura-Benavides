@@ -105,11 +105,8 @@ form{
     width: 27%;
 }
 .label-form{
-    display: block;
-    font-size: 1.1rem;  
-    position: absolute;
-    margin-top:-60px ;
-    padding-left: 15px;  
+    color: #473e3c; 
+    font-weight: 1000; 
 }
 .input-form{
     width: 100%;
@@ -117,7 +114,10 @@ form{
     border: 1px solid  rgb(186, 178, 166) ;
     border-radius: 5px;
     height: 55px;
-    margin-bottom: 20px;    
+    margin-bottom: 10px;   
+    padding-left: 15px;
+    color: black;
+    font-weight: 1000;    
 }
 button{
     background-color: #E72B03;
@@ -127,6 +127,8 @@ button{
     padding: 10px;
     margin-top: 20px;
     color: white;
+    cursor: pointer;
+    z-index: 100;
 }
 @media (max-width:900px) {
     .texto-principal{
