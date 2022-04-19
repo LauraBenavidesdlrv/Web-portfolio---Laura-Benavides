@@ -32,14 +32,7 @@ body{
         align-items: center;
     }
 }
-@media (max-width:480px) {
-    .texto-principal p,h1{
-        width: 250px;
-        position: relative;
-        right: 30px;
-    }
 
-}
 #logo{
     position: absolute;
 }
@@ -135,7 +128,7 @@ button{
     .texto-principal{
         margin-top: 150px;
         width:80%;       
-        
+        margin-right: 40px;
         height: fit-content;
         
     }
