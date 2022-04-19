@@ -240,6 +240,10 @@ html {
 			.art article h3 {
 				font-size: 1.75em;
 			}
+			.art article p{
+				font-size: 1.2em;
+				margin-left: 20px;
+			}
 				.art article h3 a:hover {
 					color: inherit ;
 				}
@@ -351,7 +355,7 @@ html {
 
 		@media screen and (max-width: 736px) {
 			.art article {
-				padding: 3em 1.5em 1em 1.5em ;
+				padding: 3em 1em 1em 0.7em ;
 				height: 16em;
 			}
 				.art article h3 {
