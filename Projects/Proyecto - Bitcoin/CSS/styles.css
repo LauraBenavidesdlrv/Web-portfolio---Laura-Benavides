@@ -31,7 +31,9 @@ h3{
         background-color: #082032;   
         display: flex;
         flex-flow: column;
-        flex: 0 2 auto;       
+
+
+    
     }
         .menu{
             background-color: #082032;   
@@ -149,21 +151,23 @@ h3{
             background-color:#ffffff36;
             color:white; 
             text-align: center;
-            flex:0 1 40%;  
+
             border: rgba(255, 255, 255, 0.274) 1px solid;
             border-radius: 5px;
             padding: 13px;
             margin: 20px;
 
+
         }
         .tiempo{
             background-color:#ffffff36;
             color:white;            text-align: center;
-            flex:0 1 40%;
+
             padding: 13px;
             margin: 20px;
             border: rgba(255, 255, 255, 0.274) 1px solid;
             border-radius: 5px;
+
         }
         .section{
             display: flex;           
@@ -260,12 +264,13 @@ h3{
             text-decoration: none;
             color: white;
         }
-@media all and (max-width:800px){
+@media all and (max-width:830px){
     .section{
         flex-direction: column; 
+
     } 
 }
-@media all and (max-width:600px){
+@media  (max-width:600px){
     .aticulos{
         flex-direction: column; 
     } 
@@ -273,8 +278,9 @@ h3{
 @media (max-width:472px) {
     .precio,.tiempo{
         width: 120%;
-
+    }
+    .article p{
+        margin-top: -100px;
     }
     
 }
-
