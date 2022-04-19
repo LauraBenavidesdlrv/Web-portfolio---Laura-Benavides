@@ -135,7 +135,7 @@ button{
     .texto-principal{
         margin-top: 150px;
         width:80%;       
-        
+        margin-left: 15px;
         height: fit-content;
         
     }
