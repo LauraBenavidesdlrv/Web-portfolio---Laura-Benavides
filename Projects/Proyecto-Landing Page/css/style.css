@@ -211,7 +211,8 @@ button{
 
 }
 .carrusel .punto{
-    width: 1em;
+    width: 0.01em;
+    margin: 20px;
     height: 1em;
     font-size: 60px;
 
