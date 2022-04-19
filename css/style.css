@@ -348,11 +348,7 @@ html {
 				min-height: 20em;
 			}
 		}
-		@media screen and (max-width: 980px) {
-			.art article {
-				width: 50% ;
-			}
-		}
+
 		@media screen and (max-width: 736px) {
 			.art article {
 				padding: 3em 1.5em 1em 1.5em ;
