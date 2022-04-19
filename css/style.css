@@ -353,8 +353,6 @@ html {
 			.art article {
 				padding: 3em 1.5em 1em 1.5em ;
 				height: 16em;
-				max-height: none;
-				min-height: 0;
 			}
 				.art article h3 {
 					font-size: 1.5em;
