@@ -16,7 +16,6 @@
 }
 h2{
     background: none;
-    color: white;
     font-size: 165%;
     padding: 1px;
 }
@@ -142,27 +141,24 @@ h3{
             justify-content: center;
         }   
         .precio{
-            background-color:#f0593e36;
-            color:white;
+            background-color:#ffffff36;
+            color:white; 
             text-align: center;
             flex:0 1 40%;  
-            border: rgb(218, 70, 37) 1px solid;
+            border: rgba(255, 255, 255, 0.274) 1px solid;
             border-radius: 5px;
             padding: 13px;
             margin: 20px;
-            box-shadow: 0 0 5px rgb(216, 48, 30);
 
         }
         .tiempo{
-            background-color:#f0593e36;
-            color:white;
-            text-align: center;
+            background-color:#ffffff36;
+            color:white;            text-align: center;
             flex:0 1 40%;
             padding: 13px;
             margin: 20px;
-            border: rgb(218, 70, 37) 1px solid;
+            border: rgba(255, 255, 255, 0.274) 1px solid;
             border-radius: 5px;
-            box-shadow: 0 0 5px rgb(216, 48, 30);
         }
         .section{
             display: flex;           
@@ -190,6 +186,9 @@ h3{
                 }
                 .article img{
                     width:40%;
+                }
+                .article a{
+                    text-decoration: none;
                 }
                 .article p{
                     background-color: #ff4d2935;
