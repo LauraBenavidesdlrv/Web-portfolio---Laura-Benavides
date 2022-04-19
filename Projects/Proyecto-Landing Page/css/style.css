@@ -134,7 +134,10 @@ button{
 @media (max-width:900px) {
     .texto-principal{
         margin-top: 150px;
-        width:80%;
+        width:80%;       
+        
+        height: fit-content;
+        
     }
     header{
         display: flex;
@@ -145,11 +148,7 @@ button{
         height: fit-content;
        padding-bottom: 100px;
     }
-    .texto-principal{
 
-        margin-right: 40px;
-        height: fit-content;
-    }
     form{
         width: 60%;
         margin-left: 50px;
