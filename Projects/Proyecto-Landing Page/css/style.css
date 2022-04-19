@@ -188,7 +188,7 @@ button{
     justify-content:center ;
     align-items:center ;
     transition: all 0.4s ease;
-    transform: translateX(-50%);
+    transform: translateX(0%);
 }
 .carrusel .beneficio{
     width: calc(100%/3);
