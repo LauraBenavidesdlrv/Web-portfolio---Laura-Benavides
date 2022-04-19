@@ -15,14 +15,12 @@ body{
         justify-content: center;
         align-items: center;
     }  
-    .box{
-        width: 80%;
-    }
-     .pprincipal{
-        height: fit-content;
 
+    .pprincipal{
+        
+        height: fit-content;
     }
-     .tprincipal{
+    .tprincipal{
 
         height: fit-content;
     }
@@ -33,6 +31,8 @@ body{
     }
 }
 
+
+
 #logo{
     position: absolute;
 }
@@ -41,7 +41,7 @@ header{
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 550px;
+    height: 500px;
     display: flex;  
     animation: background 10s infinite alternate; 
     justify-content: space-around;
@@ -93,14 +93,15 @@ form{
     display: flex;
     flex-direction: column;
     height: max-content;
-    padding: 50px 50px 50px 35px;
+    padding: 50px 50px 50px 40px;
     border-radius: 7px;    
     box-shadow: 0 0 10px rgb(107, 100, 100);
     width: 27%;
 }
 .label-form{
     color: #473e3c; 
-    font-weight: 1000; 
+    font-weight: 1000;
+   
 }
 .input-form{
     width: 100%;
@@ -112,6 +113,9 @@ form{
     padding-left: 15px;
     color: black;
     font-weight: 1000;    
+}
+#condicion{
+    z-index: 1000;
 }
 button{
     background-color: #E72B03;
@@ -129,8 +133,7 @@ button{
         margin-top: 150px;
         width:80%;       
         margin-right: 40px;
-        height: fit-content;
-        
+        height: fit-content
     }
     header{
         display: flex;
@@ -148,6 +151,7 @@ button{
     }
  
 }
+
 .beneficios{
     display:flex;
     flex-direction: column;
@@ -163,7 +167,8 @@ button{
 }
 .texto-beneficios{
     color: black;
-    text-align: center; 
+    text-align: center;
+    
 }
 .beneficio{
     border: 1px solid rgb(186, 178, 166);
@@ -175,10 +180,11 @@ button{
 }
 .carrusel{
     width:80%;
- 
     overflow: hidden;
     display: block;
     margin: auto;
+
+
 
 }
 .carrusel .caja{
@@ -189,16 +195,21 @@ button{
     align-items:center ;
     transition: all 0.4s ease;
     transform: translateX(0%);
+
+
+
 }
 .carrusel .beneficio{
     width: calc(100%/3);
     margin: 50px;
     padding-bottom: 30px;
+
     display: flex;
     align-items: center;
-    justify-content: flex-start;
     padding: 20px;
 }
+
+
 .carrusel .puntos{
     margin-top: -60px;
     width: 100%;
@@ -207,13 +218,14 @@ button{
     justify-content: center;
     align-items: center;
     position: relative;
-
-
+    
 }
 .carrusel .punto{
     width: 0.01em;
     margin: 20px;
     font-size: 60px;
+    
+
 
 }
 .carrusel .punto.activo{
@@ -221,36 +233,56 @@ button{
 
 }
 
+
+
 section{
     display: flex;
-    justify-content: space-around;
-    padding: 70px;
+    justify-content: space-between;
+    padding: 20px;
+
+
 }
 article{
     border: 1px solid rgb(186, 178, 166);
     background-color: rgba(255, 254, 255, 0.597);
     border-radius: 7px;    
     box-shadow: 0 0 20px rgb(209, 206, 206);
-    width: 18%;
-    margin-top: 40px;
-    margin-bottom: 50px;
-}
-.box{
-    padding: 35px 30px 35px 0; 
+    width: 20%;
+    display: flex;
+    justify-content: ;
+    padding: 30px 40px 30px 10px; 
     height: min-content;
+    align-items: center;
+    margin: 10px;
 }
+@media (max-width:890px) {
+    section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    article{
+        width: 50%;
+        padding-right: 70px;
+    }
+    
+}
+
 .box li{
-    text-align: start;
+    width: 110%;
     list-style-image:url("/img/check.svg") ;
-    list-style-position: outside;
     margin-top: 10px;
-    font-weight: 600;    
-    margin-top: 20px;
+    font-weight: 600;   
+
+
 
 }
 .box h2{
+    width: fit-content;
     text-align: center;
     color: #E72B03 ;
+
 }
 footer{
     display: flex;
@@ -267,6 +299,3 @@ footer{
     padding: 20px;
     font-size: 1.7em;
 }
-
-
-
