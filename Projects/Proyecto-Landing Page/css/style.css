@@ -206,23 +206,18 @@ button{
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
-    position: relative;
     margin-left: 30px;
 }
 .carrusel .punto{
-    width: 1em;
-
-    font-size: 60px;
-    
-
-
+    width: 0.001em;
+    height: 1em;
+    margin: 20px;
+    font-size: 2.3em;
 }
 .carrusel .punto.activo{
     color: #E72B03;
 
 }
-
-
 
 section{
     display: flex;
