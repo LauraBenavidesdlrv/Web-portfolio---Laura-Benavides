@@ -144,6 +144,9 @@ html {
 		margin-bottom: 0.5em;
 		line-height: 0;
 	}
+    header.featured h2{
+		text-align:center;
+	}
 	header.featured > :first-child:after {
 		content: '';
 		background-color: #ffffff;
