@@ -954,6 +954,7 @@ html {
 		}
 		#skills a {
 		    margin-top: 0px!important;
+		    width: fit-content;
 		}
 
 		#skills:hover .featured{
