@@ -934,14 +934,16 @@ html {
 		    justify-content: space-around;
 		    align-items: center;
 		    flex-direction: column;
-		}
-		#skills .text-skills{
-			width: 100%;
-			display:flex;
-			padding: 50px;
-			align-self: flex-start;
-			margin: 4 0px;
-			flex-direction:row;
+		    margin: 5% 0%;
+		}	
+		#skills .text-skills {
+		    width: 100%;
+		    display: flex;
+		    padding: 50px;
+		    align-self: center;
+		    justify-content: space-evenly;
+		    margin: 4 0px;
+		    flex-direction: row;
 		}
 		#skills .types-skills{
 			width: 80%;
