@@ -953,12 +953,7 @@ html {
 		    width: 100%;
 		}
 		#skills a {
-		    display: block;
-		    margin-left: 30px;
-		    margin-top: 0px;
-		    padding:7px 34px;
-		    width: fit-content;
-		    text-align: center;
+		    margin-top: 0px!important;
 		}
 
 		#skills:hover .featured{
