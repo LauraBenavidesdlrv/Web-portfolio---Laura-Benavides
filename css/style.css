@@ -943,6 +943,10 @@ html {
 			margin: 4 0px;
 			flex-direction:row;
 		}
+		#skills .types-skills{
+			width: 80%;
+			
+		}
 
 		#skills:hover .featured{
 			animation: rebote 2s 1;
