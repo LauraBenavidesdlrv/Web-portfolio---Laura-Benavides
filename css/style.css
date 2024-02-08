@@ -932,11 +932,12 @@ html {
 			align-items: center;
 		}
 		#skills .text-skills{
-			width: 50%;
-
+			width: 100%;
+			display:flex;
 			padding: 50px;
 			align-self: flex-start;
 			margin: 4 0px;
+			flex-direction:row;
 		}
 		#skills .picture-skills{
 			width: 40%;
