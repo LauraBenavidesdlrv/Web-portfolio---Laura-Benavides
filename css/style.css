@@ -978,40 +978,24 @@ html {
 				left: 5px;
 			}	
 		}
-		#skills:hover h3{
-			animation: deslizar 3s 1;
-		}
-		@keyframes deslizar {
-			0%{
-				transform: translateX(60px);
-			}
-			100%{
-				transform: translateX(0px);
-			}
-		}
-		#skills a{
-			display: block;
-			margin-left:30px ;
-			margin-top: 30px;
-			width: 40%;
-			text-align: center;	
-		}
+		
+		
 		#skills:hover a{
 			animation: rebote 2s 1;
 		}
 		@media (max-width:1280px){
 			#skills a{
-				width: 60%;	
+				width: fit-content;	
 			}		
 		}
 		@media (max-width:772px){
 			#skills a{
-				width: 80%;	
+				width: fit-content;	
 			}		
 		}
 		@media (max-width:480px){
 			#skills a{
-				width: 80%;	
+				width: fit-content;	
 			}		
 		}
 		.work{
