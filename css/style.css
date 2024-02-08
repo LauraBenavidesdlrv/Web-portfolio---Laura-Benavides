@@ -923,14 +923,14 @@ html {
 				width: 320px;
 			}
 		}
-		#skills{
-			display: flex;
-			flex-direction:column;
-			flex-flow: row nowrap ;
-			background-color: #060918;
-			padding: 10px;
-			justify-content: space-around;
-			align-items: center;
+		#skills {
+		    display: flex;
+		    flex-flow: row nowrap;
+		    background-color: #060918;
+		    padding: 10px;
+		    justify-content: space-around;
+		    align-items: center;
+		    flex-direction: column;
 		}
 		#skills .text-skills{
 			width: 100%;
