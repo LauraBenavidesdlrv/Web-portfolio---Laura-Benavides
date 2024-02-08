@@ -945,9 +945,20 @@ html {
 		    margin: 4 0px;
 		    flex-direction: row;
 		}
-		#skills .types-skills{
-			width: 80%;
-			
+		#skills .types-skills {
+		    display: flex;
+		    flex-direction: column;
+		    justify-content: flex-start;
+		    align-items: center;
+		    width: 100%;
+		}
+		#skills a {
+		    display: block;
+		    margin-left: 30px;
+		    margin-top: 0px;
+		    padding:7px 34px;
+		    width: fit-content;
+		    text-align: center;
 		}
 
 		#skills:hover .featured{
