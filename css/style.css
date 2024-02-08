@@ -925,6 +925,7 @@ html {
 		}
 		#skills{
 			display: flex;
+			flex-direction:column;
 			flex-flow: row nowrap ;
 			background-color: #060918;
 			padding: 10px;
@@ -939,24 +940,7 @@ html {
 			margin: 4 0px;
 			flex-direction:row;
 		}
-		#skills .picture-skills{
-			width: 40%;
-			margin-left: 40px;	
-		}
-		.picture-skills img{
-			width: 100%;
-		}
-		#skills:hover .picture-skills{
-			animation: down 3s 1;
-		}		
-		@keyframes down {
-			0%{
-				transform: translateY(-100px);
-			}
-			100%{
-				transform: translateY(0px);
-			}
-		}
+
 		#skills:hover .featured{
 			animation: rebote 2s 1;
 		}
