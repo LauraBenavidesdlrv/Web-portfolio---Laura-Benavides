@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="css/style.css"/>
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-		
+		<link rel="stylesheet" href="/css/grid.css">
 	</head>
 	<body>
 
@@ -53,129 +53,38 @@
 										<li>JavaScript</li>
 										<li>CSS3</li>
 										<li>Responsive Web Design</li>
+										<li>Good SEO practices</li>
+										<li>Lot of curiosity</li>
 										
 									</ul>
 									</div>
 									<div class="types-skills">
 									<ul>									<ul>
 										<li>PHP</li>
-										<li>CMS: Wordpress (Desarrollo,
-										PHP MyAdmin <br> y migración de
-										sitios) y Shopify (Desarrollo) <br>
+										<li>CMS: Wordpress (Development, php MyAdmin <br> and
+										site migration) and Shopify (Development)<br>
 										</li>
-										<li>UX/UI</li>
+										<li>Diseño UX/UI</li>
+										<li>Google Analytics</li>
+										<li>Google Search Console</li>
 									</ul>
 									</div>
 								</div>	
-									<a href="CV Laura Benavides 2024.pdf" download="CVLauraBenavides" class="button">Download CV</a>
+									<a href="CV Laura Benavides 2024.pdf" download="CVLauraBenavides" class="button download">Download CV</a>
 								
 								
 							</div>
 							
 						</section>
 
-						<!-- work -->			
-							<h2 class="work"id=mywork> MY WORK </h2>
-							<section class="art">
-
-								<article  id="portfolio" class="right backgrounds">
-									<span class="image">
-										<img src="Img/portfolio.png" alt="" />
-									</span>
-									<header class="principal">
-										<h3 class="text-right"><a href="portfolio.html" class="link">Portfolio (this web :D)</a></h3>
-									</header>
-								</article>
-								<article class="next-right" style="visibility: hidden; width: 40%;">
-									<header class="featured">
-										<h3>Portfolio (this web :D)</h3>
-										<p >Personal Project</p>
-									</header>
-								</article>
-
-								<!-------------------------------------------------->
-								<article id="weather" class="right backgrounds">
-									<span class="image">
-										<img src="Img/weather.png" alt="" />
-									</span>
-									<header class="principal">
-										<h3 class="text-right"><a href="weather.html" class="link">Weather app</a></h3>
-
-									</header>
-								</article>
-								<article class="next-right" style="visibility: hidden; background-color: #ec8d81;" >
-									<header class="featured">
-										<h3>Weather app</h3>
-										<p>Personal project</p>
-									</header>
-								</article>
-								<!-------------------------------------------------->
-								<article id="sie" class="right backgrounds">
-									<span class="image">
-										<img src="Img/www.sieducacion.com.co.png" alt="" />
-									</span>
-									<header class=" principal">
-										<h3 class="text-right"><a href="sie.html" class="link">Web Project</a></h3>
-									</header>
-								</article>
-								<article class="next-right"style="visibility: hidden; width: 40%;">
-									<header class="featured">
-										<h3>Web Project</h3>
-										<p >Web for SIE Servicios Integrales de Educación</p>
-									</header>
-								</article>
-
-								<!-------------------------------------------------->
-								<article id="bitcoin" class="right backgrounds">
-									<span class="image">
-										<img src="Img/Bitcoin.png" alt="" />
-									</span>
-									<header class=" principal">
-										<h3 class="text-right"><a href="bitcoin.html" class="link">Real time bitcoin</a></h3>
-										
-									</header>
-								</article>
-								<article class="next-right" style="visibility: hidden;">
-									<header class="featured">
-										<h3>Real time bitcoin</h3>
-										<p >Personal Project</p>
-									</header>
-								</article>
-								<!-------------------------------------------------->
-								<article id="landing" class="right backgrounds">
-									<span class="image">
-										<img src="Img/Landing.png" alt="" />
-									</span>
-									<header class=" principal">
-										<h3 class="text-right"><a href="landing.html" class="link">Landing Page</a></h3>
-										
-									</header>
-								</article>
-								<article class="next-right" style="visibility: hidden;width: 40%;">
-									<header class=" featured " >
-										<h3>Landing Page</h3>
-										<p>Personal Project</p>
-									</header>
-								</article>
-
-								<!-------------------------------------------------->
-								<article id="tribute" class="right backgrounds" >
-									<span class="image">
-										<img src="Img/Tributo.png" alt="" />
-									</span>
-									<header class=" principal">
-										<h3 class="text-right"><a href="tribute.html" class="link">Tribute Page</a></h3>
-										
-									</header>
-								</article>
-								<article class="next-right" style="visibility: hidden;">
-									<header class="featured">
-										<h3>Tribute Page</h3>
-										<p>Personal Project</p>
-									</header>
-								</article>
-								<!-------------------------------------------------->
-							</section>
+						<!-- work -->
+						<section id="mywork">
+							<h2 class="work"> MY WORK </h2>
+							<div class="grid-container" id="grid-container">
+							<!-- Aquí se cargarán los proyectos dinámicamente -->
+							</div>
+							<button id="load-more-btn">Cargar más proyectos</button>
+						</section>
 					</div>
 				<!-- Contact -->
 					<section id="contact">
@@ -227,7 +136,7 @@
 					<footer id="footer">
 						<div class="inneul copyright">
                                 <p>Laura Daniela Benavides de los Ríos - Web developer</p>
-								<p>©2022 |<a href="credits.html"> Credits of the website</a></p>
+								<p>©2024</p>
 								
 						</div>
 					</footer>
@@ -236,6 +145,7 @@
 
 		<!-- Scripts -->
 			<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-			<script src="js/main.js"></script>	
+			<script src="js/main.js"></script>
+			<script src="/js/grid.js"></script>
 	</body>
 </html>
