@@ -1176,6 +1176,10 @@ html {
 			}
 		}
 
+.youtube.red {
+    display: none!important;
+}
+
 /* Footer */
 	#footer .copyright {
 		font-size: 0.8em;
