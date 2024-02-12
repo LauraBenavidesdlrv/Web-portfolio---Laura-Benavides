@@ -196,6 +196,7 @@ html {
 		text-transform: uppercase;
 		
 	}
+
 		.button:hover,
 		.button:active {
 			box-shadow: inset 0 0 0 2px #F05454;
@@ -873,7 +874,7 @@ html {
 				width: 40%;
 			}
 			#about .picture{
-				width: 50%;
+				width: 40%;
 				margin-left: 20px;
 			}
 			.picture img{
@@ -939,7 +940,7 @@ html {
 		#skills .text-skills {
 		    width: 100%;
 		    display: flex;
-		    padding: 50px;
+		    padding: 50px 50px 0px 50px;
 		    align-self: center;
 		    justify-content: center;
 		    margin: 4 0px;
@@ -978,9 +979,7 @@ html {
 		}
 		
 		
-		#skills:hover a{
-			animation: rebote 2s 1;
-		}
+		
 		@media (max-width:1280px){
 			#skills a{
 				width: fit-content;	
@@ -1100,6 +1099,7 @@ html {
 	#main {
 		background-color: #060918;
 		border: 1s solid white;
+		padding-bottom: 5%;
 	}
 /* Contact */
 	#contact {
